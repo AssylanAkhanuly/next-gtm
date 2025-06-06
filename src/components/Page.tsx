@@ -7,7 +7,7 @@ function Page({ children }: PropsWithChildren) {
     getGTM().then((gtm) => {
       gtm.dataLayer({
         dataLayer: {
-          event: "home_page_view",
+          event: "home_view",
         },
         
       });
